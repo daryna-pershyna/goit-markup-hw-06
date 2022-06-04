@@ -455,28 +455,22 @@
     <div data-modal  class="backdrop is-hidden">
       <div class="modal">
         <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+        
+        <!-- Кнопка закрывания модального окна -->
+        <button data-modal-close type="button" class="btn-close"><svg class="client-icon" width="18" height="18"><use href="./images/sprite.svg#icon-close"></use></svg></button>
         <!-- Форма заполнения модального окна -->
         <form class="modal-form">
-          <label class="modal-label">
-            <span class="label-title">Имя</span> 
-            <div class="input-box">
+          <label class="modal-label"><span class="label-title">Имя</span> 
               <input class="modal-input" type="text" name="user-name">
               <svg class="modal-icon" width="18" height="18"><use href="./images/sprite.svg#icon-person-modal"></use></svg>
-            </div>
           </label>
-          <label class="modal-label">
-            <span class="label-title">Телефон</span> 
-            <div class="input-box">
+          <label class="modal-label"><span class="label-title">Телефон</span> 
               <input class="modal-input" type="tel" name="user-phone">
               <svg class="modal-icon" width="18" height="18"><use href="./images/sprite.svg#icon-phone-modal"></use></svg>
-            </div>
           </label>
-          <label class="modal-label">
-            <span class="label-title">Email</span> 
-            <div class="input-box">
+          <label class="modal-label"><span class="label-title">Email</span> 
               <input class="modal-input" type="email" name="user-email">
               <svg class="modal-icon" width="18" height="18"><use href="./images/sprite.svg#icon-envellope-modal"></use></svg>
-            </div>
           </label>
           <label class="modal-label">
             <span class="label-title">Комментарий</span> 
@@ -491,9 +485,7 @@
             <span class="check-policy-agree">Соглашаюсь с рассылкой и принимаю <a href="" rel="noopener noreferrer" target="_blank" class="agreement link">Условия договора</a></span>
           </label>
           <button type="submit" class="btn-main btn btn-checkbox">Отправить</button>
-        </form>
-        <!-- Кнопка закрывания модального окна -->
-        <button data-modal-close type="button" class="btn-close"><svg class="client-icon" width="18" height="18"><use href="./images/sprite.svg#icon-close"></use></svg></button>
+        </form> 
       </div>
     </div>
     <script src="./js/modal.js"></script>
